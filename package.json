@@ -1,17 +1,15 @@
 {
-  "name": "app-gallery",
-  "version": "0.0.0",
+  "name": "procrastination-roast-machine",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Archestra Apps Hackathon — app-session gallery submissions.",
-  "repository": { "type": "git", "url": "git+https://github.com/archestra-ai/apps-gallery.git" },
-  "license": "MIT",
-  "scripts": {
-    "validate": "node scripts/validate-submission.mjs",
-    "validate:all": "node scripts/validate-submission.mjs --all",
-    "build-index": "node scripts/build-index.mjs",
-    "test": "node --test scripts/*.test.mjs"
+  "description": "An AI-powered application that roasts your procrastination excuses using brutal and humorous custom personalities.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihalnoufal1212/procrastination-roast-machine.git"
   },
+  "author": "nihalnoufal1212",
+  "license": "MIT",
   "dependencies": {
     "zod": "^3.24.1"
   },
