@@ -1,0 +1,553 @@
+{
+  "formatVersion": 1,
+  "apps": [
+    {
+      "slug": "nihalnoufal1212_procrastination_roast_machine",
+      "appName": "Procrastination Roast Machine",
+      "description": "Sarcastic AI roasts to fight procrastination, featuring a task wheel, mock productivity analytics, and a red-alert emergency mode.",
+      "category": "Fun & Wierd",
+      "prompt": "Build me an app that uses an LLM to generate detailed roasts based on my procrastination and a chosen personality. It should show a fake productivity dashboard and a random task wheel, with a red-alert emergency mode that changes the UI.",
+      "author": {
+        "login": "nihalnoufal1212",
+        "name": "Nihal Noufal"
+      },
+      "avatarUrl": "https://github.com/nihalnoufal1212.png",
+      "model": "Gemma 4 31B IT",
+      "userPromptCount": 18,
+      "mcpServers": [
+        "archestra"
+      ],
+      "buildDate": "2026-07-29",
+      "durationSeconds": 60,
+      "recordingPath": "apps/nihalnoufal1212_procrastination_roast_machine/recording.json",
+      "thumbnailPath": "apps/nihalnoufal1212_procrastination_roast_machine/thumbnail.webp",
+      "formatVersion": 1
+    },
+    {
+      "slug": "swagatika60_github_graveyard",
+      "appName": "GitHub Graveyard 👻",
+      "description": "Stale open issues and PRs across your GitHub repos, categorized by inactivity age with reason breakdowns and direct links.",
+      "category": "Developer Tools",
+      "prompt": "Build me a playful app that scans my GitHub account for stale open issues and pull requests and displays them as categorized ghosts alongside a Ghost Score. Give me a button to scan across all my repos and a field to search a specific owner/repo, showing each item's repository, title, inactivity age, simple explanation, and direct GitHub link.",
+      "author": {
+        "login": "swagatika60",
+        "name": "Swagatika Beura"
+      },
+      "avatarUrl": "https://github.com/swagatika60.png",
+      "model": "Gemini 3.6 Flash",
+      "userPromptCount": 28,
+      "mcpServers": [
+        "archestra",
+        "github"
+      ],
+      "buildDate": "2026-07-29",
+      "durationSeconds": 28,
+      "recordingPath": "apps/swagatika60_github_graveyard/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "swagatika60_pr_review_queue",
+      "appName": "PR Review Queue",
+      "description": "Open GitHub pull requests across all repositories, sorted by how long they've been waiting for review.",
+      "category": "Developer Tools",
+      "prompt": "Build me an app that connects to GitHub and displays all our open pull requests as a unified review queue, sorted by how long they've been waiting so we can easily see what needs attention first.",
+      "author": {
+        "login": "swagatika60",
+        "name": "Swagatika Beura"
+      },
+      "avatarUrl": "https://github.com/swagatika60.png",
+      "model": "Gemini 3.5 Flash",
+      "userPromptCount": 4,
+      "mcpServers": [
+        "archestra",
+        "github"
+      ],
+      "buildDate": "2026-07-29",
+      "durationSeconds": 57,
+      "recordingPath": "apps/swagatika60_pr_review_queue/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "thisisharsh7_flapster",
+      "appName": "flapster",
+      "description": "Flappy Bird, but every pipe is a real open pull request from GitHub. The longer a PR has been waiting, the narrower the gap.",
+      "category": "Games & Experiments",
+      "prompt": "Build a single-page HTML5 canvas game called Flapster, Flappy Bird style. Pass 1 only: a sky background, green ground, a bird that falls with gravity, and tap-to-flap. No pipes, no score, no menus yet.",
+      "author": {
+        "login": "thisisharsh7",
+        "name": "Harsh Kumar"
+      },
+      "avatarUrl": "https://github.com/thisisharsh7.png",
+      "model": "GPT-5.5",
+      "userPromptCount": 8,
+      "mcpServers": [
+        "archestra",
+        "github"
+      ],
+      "buildDate": "2026-07-29",
+      "durationSeconds": 59,
+      "recordingPath": "apps/thisisharsh7_flapster/recording.json",
+      "thumbnailPath": "apps/thisisharsh7_flapster/thumbnail.webp",
+      "formatVersion": 1
+    },
+    {
+      "slug": "MdTowfikomer_shipwindow",
+      "appName": "ShipWindow",
+      "description": "ShipWindow — an interactive app built in chat.",
+      "category": "Developer Tools",
+      "prompt": "Rebuild ShipWindow Live as a full single-page HTML app with Tailwind CSS and dark-mode glassmorphism (bg-[#0d1520]), featuring a header with the app title, a pulsing radar dot, user greeting, and settings button; a collapsible settings drawer for default repo, reviewers, and Slack mapping saved to archestra.storage.user; an execution panel with repo, branch, and manual override inputs plus an Analyze Shipping Window button; and a right-column dashboard with a glowing recommendation.",
+      "author": {
+        "login": "MdTowfikomer",
+        "name": "Md Towfik Omer"
+      },
+      "avatarUrl": "https://github.com/MdTowfikomer.png",
+      "model": "Gemini 3.1 Pro Preview",
+      "userPromptCount": 50,
+      "mcpServers": [
+        "archestra",
+        "github"
+      ],
+      "buildDate": "2026-07-28",
+      "durationSeconds": 30,
+      "recordingPath": "apps/MdTowfikomer_shipwindow/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "bernardev254_actions_board",
+      "appName": "Actions Board",
+      "description": "Drag-and-drop Kanban that auto-extracts action items from a Slack channel, with nudge reminders and thread-aware completion detection.",
+      "category": "Productivity",
+      "prompt": "Build me an app that reads messages from Slack channel C0BL2NT3CMR using slackreadchannel, identifies action items (commitments like I'll... or requests like can you...), and displays them as a Trello-style Kanban board with To Do, In Progress, and Done columns showing the workspace and channel name at the top.",
+      "author": {
+        "login": "bernardev254",
+        "name": "bernard karaba"
+      },
+      "avatarUrl": "https://github.com/bernardev254.png",
+      "model": "global.anthropic.claude-opus-4-6-v1",
+      "userPromptCount": 7,
+      "mcpServers": [
+        "archestra",
+        "slack"
+      ],
+      "buildDate": "2026-07-28",
+      "durationSeconds": 30,
+      "recordingPath": "apps/bernardev254_actions_board/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "jaswanth422_routeforge_policy_based_llm_gateway",
+      "appName": "RouteForge — Policy-Based LLM Gateway",
+      "description": "RouteForge is a privacy-aware MCP gateway that keeps sensitive or routine LLM requests local, redacts private data before permitted cloud processing, and returns an auditable receipt explaining every routing decision.",
+      "category": "Developer Tools",
+      "prompt": "Build me a tool that takes customer emails, pulls out their contact info and the issue they are reporting, and automatically drafts a professional response for me to review.",
+      "author": {
+        "login": "jaswanth422",
+        "name": "katuri Jaswanth"
+      },
+      "avatarUrl": "https://github.com/jaswanth422.png",
+      "model": "Gemini 3.1 Flash Lite",
+      "userPromptCount": 2,
+      "mcpServers": [
+        "archestra"
+      ],
+      "buildDate": "2026-07-28",
+      "durationSeconds": 30,
+      "recordingPath": "apps/jaswanth422_routeforge_policy_based_llm_gateway/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "modimihir07_launchsignal",
+      "appName": "LaunchSignal",
+      "description": "LaunchSignal — an interactive app built in chat.",
+      "category": "Workflows",
+      "prompt": "Build me a release readiness dashboard that aggregates signals from Jira, GitHub, and Slack to provide a SHIP, HOLD, or AT RISK recommendation, featuring a risk queue with evidence inspection and a human-controlled Slack nudge preview flow.",
+      "author": {
+        "login": "modimihir07",
+        "name": "Mihir Modi"
+      },
+      "avatarUrl": "https://github.com/modimihir07.png",
+      "model": "GPT-5.5",
+      "userPromptCount": 35,
+      "mcpServers": [
+        "archestra"
+      ],
+      "buildDate": "2026-07-28",
+      "durationSeconds": 30,
+      "recordingPath": "apps/modimihir07_launchsignal/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "mohanreddybodha_buildtrack",
+      "appName": "BuildTrack",
+      "description": "BuildTrack is an automated dashboard that scans repositories for security vulnerabilities, analyzes dependency paths, and detects MVP feature gaps.",
+      "category": "Developer Tools",
+      "prompt": "Analyze mohanreddybodha/Notepay on branch main. Follow the mandatory initialization sequence: get_cache_status → get_repo_overview → get_doc_list. Then run get_feature_status and scan_security. Show tool response before interpreting. Reject any finding with .js or .ts file paths.",
+      "author": {
+        "login": "mohanreddybodha",
+        "name": "BODA MOHAN REDDY"
+      },
+      "avatarUrl": "https://github.com/mohanreddybodha.png",
+      "model": "Gemini 3.5 Flash",
+      "userPromptCount": 29,
+      "mcpServers": [
+        "archestra",
+        "buildtrack",
+        "github"
+      ],
+      "buildDate": "2026-07-28",
+      "durationSeconds": 39,
+      "recordingPath": "apps/mohanreddybodha_buildtrack/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "rupakkumar-76319_site_watchdog",
+      "appName": "Site Watchdog",
+      "description": "Monitors website uptime, auto-diagnoses failures (DNS, SSL, timeouts, errors), and files GitHub issues automatically — checking duplicates first.",
+      "category": "Developer Tools",
+      "prompt": "Build a Site Watchdog app: user enters a URL, clicks \"Check Now,\" and an HTTP-check tool tests if it's up. Show status (Up/Down/Degraded), response time, and HTTP code at the top. If down/erroring, auto-diagnose the issue (DNS failure, SSL expired, 5xx error, timeout) and add a \"File GitHub Issue\" button pre-filled with the diagnosis — first checking GitHub for existing matching issues to avoid duplicates. If healthy, show \"All systems operational.\" Include a refresh/re-check option.",
+      "author": {
+        "login": "rupakkumar-76319",
+        "name": "Rupak Kumar"
+      },
+      "avatarUrl": "https://github.com/rupakkumar-76319.png",
+      "model": "Gemma 4 26B A4B  (free)",
+      "userPromptCount": 20,
+      "mcpServers": [
+        "archestra",
+        "github",
+        "microsoft__playwright-mcp"
+      ],
+      "buildDate": "2026-07-28",
+      "durationSeconds": 30,
+      "recordingPath": "apps/rupakkumar-76319_site_watchdog/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "suganya-subramanian_secureops_dashboard",
+      "appName": "SecureOps Dashboard",
+      "description": "DevSecOps platform for auditing Dockerfiles, Kubernetes YAML, and Terraform via GitHub REST API integrations.",
+      "category": "Developer Tools",
+      "prompt": "Build me a DevSecOps dashboard that lets me connect to a GitHub repository using a personal access token, explore infrastructure files like Dockerfiles, Kubernetes YAML, Terraform, and GitHub Actions workflows, and run AI-powered security audits that display a security score, findings, recommendations, and secure code suggestions.",
+      "author": {
+        "login": "suganya-subramanian",
+        "name": "suganya s"
+      },
+      "avatarUrl": "https://github.com/suganya-subramanian.png",
+      "model": "Gemini 3.5 Flash Lite",
+      "userPromptCount": 38,
+      "mcpServers": [
+        "archestra",
+        "secureops_ai-9f8249ea",
+        "secureops_ai_auditor_app-ee148650",
+        "secureops_ai_frontend-8bea4c14"
+      ],
+      "buildDate": "2026-07-28",
+      "durationSeconds": 19,
+      "recordingPath": "apps/suganya-subramanian_secureops_dashboard/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "rupakkumar-76319_bureau_of_life_decisions_investigations_bldi",
+      "appName": "Bureau of Life Decisions & Investigations (BLDI)",
+      "description": "Automated bureaucratic audit for your life choices, featuring cynical department investigations, sarcastic roasts, and an official final verdict stamp.",
+      "category": "Games & Experiments",
+      "prompt": "Build me a web app that takes any life decision I type in and runs it through a government-style investigation process, generating a sarcastic roast, a series of humorous departmental reviews, and a final stamped verdict. The design should look like an official, decaying case file that gets progressively more glitchy and harsh as the departments are displayed.",
+      "author": {
+        "login": "rupakkumar-76319",
+        "name": "Rupak Kumar"
+      },
+      "avatarUrl": "https://github.com/rupakkumar-76319.png",
+      "model": "Gemini 3.1 Flash Lite",
+      "userPromptCount": 6,
+      "mcpServers": [
+        "archestra"
+      ],
+      "buildDate": "2026-07-27",
+      "durationSeconds": 29,
+      "recordingPath": "apps/rupakkumar-76319_bureau_of_life_decisions_investigations_bldi/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "abolambA_codebase_aquarium",
+      "appName": "Codebase Aquarium",
+      "description": "A fish tank where each GitHub repository is a fish, with abandoned repos sinking to the bottom, losing their colour, and growing algae.",
+      "category": "Games & Experiments",
+      "prompt": "Build a full-screen app called Codebase Aquarium.\n\nCONCEPT\nA living aquarium where each GitHub repository is a fish. Every visual property is\ndriven by real repository data, so the health of a codebase is legible at a glance\nas the health of an ecosystem.\n\nDATA (GitHub MCP server, read-only)\nFor each repository fetch star count and creation date via search_repositories with\na \"repo:owner/name\" query, the most recent commit date and 30-day commit count via\nlist_commits, open pull request count via list_pull_requests, and recent workflow\nrun conclusions via actions_list. Stagger the fetches sequentially with a short\ndelay, since GitHub's search API rate-limits at 30 requests per minute. Render the\ntank immediately with placeholder fish already in motion, then populate each fish\nas its data arrives. If a repository fails to resolve, render it as a transparent\noutline with a \"No Data\" badge and continue.\n\nTHE TANK\nA water surface across the top with light rippling through it, a substrate floor of\nsand and scattered rocks, background kelp rooted in the substrate swaying in the\ncurrent, subtle glass edges at the viewport boundaries, a deep radial depth\ngradient, drifting caustic light rays, ambient rising bubbles, and a background\nschool of neon minnows.\n\nTHE FISH\nDistinct species silhouettes coloured from each project's brand identity. Size\nscales with star count on a compressed scale, largest at most 4x the smallest.\nSwimming speed scales with 30-day commits: active repos dart, quiet repos glide.\nTail wiggle syncs to speed. Repository names float beside each fish and stay\nupright. Partition the viewport into roaming zones so fish occupy different regions\nand depths, with gentle pairwise avoidance so they never overlap.\n\nHEALTH STATES, from time since last commit\nVIBRANT within 90 days: full colour, energetic. SLOWING at 3 to 12 months: calmer,\ndesaturated. DYING at 12 to 24 months: sinks to the lower third, turns pale grey,\ndrifts in slow circles, body opacity drops to reveal an SVG skeleton. DERELICT over\n24 months: fully skeletal, rests near the substrate, grows swaying green algae.\n\nPULL REQUEST BUBBLES\nEach fish emits bubbles from its mouth at a rate scaled to its open PR count. Zero\nopen PRs means no bubbles.\n\nWATER CLARITY FROM CI HEALTH\nCompute the aggregate proportion of failing workflow runs. All passing means clear\ndark blue water. As the failure rate rises, a green murkiness overlay increases and\nbrownish particulate drifts through the water like marine snow at a matching\ndensity. Show clarity as a percentage in the info card.\n\nTHE ANCIENT ONE\nThe repository with the earliest creation date renders larger than its stars alone\njustify, capped at 1.5x the largest fish, moves more slowly than any other, carries\na gold aura and gold name tag, and other fish give it a wider berth.\n\nINTERACTION\nHovering a fish shows a floating stats card. Clicking one opens a dark glass\nclipboard panel with its real stats plus a two-to-three sentence health diagnosis\nwritten by the LLM in the deadpan clinical register of a weary aquarium keeper,\nreferencing the actual numbers. Cache each diagnosis.\n\nKEEPER'S CLIPBOARD\nA corner overlay holds one deadpan LLM-written line judging the whole tank from the\naggregate data, in the spirit of \"one specimen has not moved in four years, nobody\nhas commented.\" Regenerate only on data refresh. If the LLM call fails, compose an\nequivalent line from the raw data rather than showing a loading state.\n\nADOPTION\nFish in DYING or DERELICT state get an \"Adopt this specimen\" button in their\ninspection panel. Healthy fish do not. Clicking it opens a confirmation dialog\nshowing the repository name and current state; nothing is saved unless confirmed,\nand the dialog can be dismissed. On confirm, write repository name, state at\nadoption time, and an ISO timestamp to shared storage so the record survives reload\nand is visible to anyone who opens the app. Adopted fish get a glowing heart marker\nand the button becomes a disabled \"Specimen Adopted\".\n\nROBUSTNESS\nWrap every LLM call in try/catch with a data-derived fallback. Include a\nformatTimeAgo helper for relative times, used by both the tooltip and the\ninspection panel. Wrap the script in an IIFE so hot reloads do not throw duplicate\ndeclarations. Guard DOM lookups with null checks. Include a Refresh Data control.\n\nCONSTRAINTS\nRead-only throughout. Never create, modify, or comment on anything in any\nrepository. Public repositories only.\n\nREPOSITORIES\nfacebook/react, expressjs/express, jquery/jquery, moment/moment,\nangular/angular.js, request/request, bower/bower, gulpjs/gulp, Leaflet/Leaflet,\nlodash/lodash, vuejs/vue, home-assistant/core",
+      "author": {
+        "login": "abolambA",
+        "name": null
+      },
+      "avatarUrl": "https://github.com/abolambA.png",
+      "model": "Gemini 3.5 Flash",
+      "userPromptCount": 17,
+      "mcpServers": [
+        "archestra",
+        "github"
+      ],
+      "buildDate": "2026-07-26",
+      "durationSeconds": 30,
+      "recordingPath": "apps/abolambA_codebase_aquarium/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "abolambA_release_war_room",
+      "appName": "Release War Room",
+      "description": "A CI triage board that sorts failing workflows by severity, ranks the commits most likely to have broken them, and tracks which failures have been acknowledged.",
+      "category": "Developer Tools",
+      "prompt": "Build a full-screen app called Release War Room for the GitHub repository\nrust-lang/rust.\n\nCONCEPT\nOne screen that answers the question an on-call engineer asks at 3am: what is\nbroken in CI right now, and how bad is it.\n\nDATA (GitHub MCP server, read-only)\nUsing actions_list, fetch the most recent workflow runs across all branches, not\njust the default branch, since this repository merges through a bors queue and most\nCI activity happens on automation branches. Group runs by workflow name and for\neach determine the conclusion of its most recent completed run, its failure ratio\nover the last 10 completed runs, whether it is broken or flaky, and the branch,\nshort SHA, and age of its most recent failing run.\n\nCLASSIFICATION\nBROKEN in red for a streak of two or more consecutive failures. FLAKY in amber for\na mix of passes and failures across the last 10 runs. IN PROGRESS in grey for\nactive runs with no preceding completed failure. PASSING in green, collapsed into a\nsingle quiet summary row at the bottom.\n\nLAYOUT\nA severity-sorted board of cards, worst at the top, in a dark dense operational\naesthetic with monospace for all numbers, SHAs, and timestamps. Each unhealthy card\nshows the workflow name and file path, a status badge, the failure rate as both\npercentage and ratio, the consecutive failure count, and a HEALTH HISTORY strip of\nthe last 10 builds marked S, F, or dash with hover detail. Below that a LATEST\nOUTAGE TRACE block with the failing commit's message, branch, short SHA linked to\nGitHub, and how long ago it failed. A header strip carries a live local clock, a\nlive UTC clock, a pulsing counter of runs currently in progress, and a Refresh\ncontrol with a countdown. A critical outage banner spans the top when any workflows\nare in a steady failure streak.\n\nSUSPECT ANALYSIS\nEach unhealthy card has a Suspect Analysis button. On trigger, use get_commit on\nthe failing run's SHA to fetch the commit message, author, and changed files, then\nask the LLM whether those paths plausibly explain a failure in that workflow. Send\na compact payload: workflow name, the commit's first-line message, and at most the\n8 most relevant paths. Request two to three sentences. Retry once, and on failure\nlog the underlying error and fall back to listing the commit and its files with a\nHEURISTIC REASONING ONLY badge. Also use list_commits to fetch the three preceding\ncommits on the same branch as secondary suspects, ranked by a calculateOverlapScore\nhelper awarding 2 points for a shared subdirectory and 1 for a shared path prefix.\nCache the full analysis per SHA. Each card also links to that run's own html_url on\nGitHub.\n\nTRIAGE\nEach unhealthy card has an Acknowledge button opening a modal with the workflow\nname, failure rate, streak, primary suspect SHA, and a two-sentence incident note\ndrafted by the LLM in plain operational language, presented in an editable\nmonospace textarea. If that call fails, compose a summary from the raw telemetry\nand label it auto-generated. The modal can be dismissed without saving. On confirm,\nwrite workflow name, failure rate, streak count, suspect SHA, the note, and an ISO\ntimestamp to shared storage so the state survives reload and is visible to anyone\nwho opens the app. Acknowledged workflows show an ACKNOWLEDGED marker, embed their\nnote, sort below un-triaged failures, and have the button disabled. Key the log by\nworkflow name so re-acknowledging updates in place rather than duplicating. Add a\nscrollable Triage Log panel below the board, newest first.\n\nROBUSTNESS\nRender the board immediately with a loading state, then populate as data arrives.\nFetch workflows in parallel and independently so one failure renders an isolated\nerror card without taking down the board. Show distinct empty states for no\nworkflows found and for workflows with no recorded runs. Guard every DOM lookup\nwith a null check before touching classList. Use var with typeof guards for\ntop-level globals so the script survives hot reload without duplicate-identifier\nerrors while preserving caches and triage state.\n\nCONSTRAINTS\nRead-only throughout. Never trigger, cancel, or re-run any workflow. Never write\nanything to GitHub. Public repositories only.",
+      "author": {
+        "login": "abolambA",
+        "name": null
+      },
+      "avatarUrl": "https://github.com/abolambA.png",
+      "model": "Gemini 3.5 Flash",
+      "userPromptCount": 10,
+      "mcpServers": [
+        "archestra",
+        "github"
+      ],
+      "buildDate": "2026-07-26",
+      "durationSeconds": 30,
+      "recordingPath": "apps/abolambA_release_war_room/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "rupakkumar-76319_credit_card_minimum_payment_trap_calculator",
+      "appName": "Credit Card Minimum Payment Trap Calculator",
+      "description": "Simulates credit card payoff month by month, comparing minimum-only against minimum-plus-extra to show interest paid, time to debt-free, and what extra saves.",
+      "category": "Data & Dashboards",
+      "prompt": "Build a single-page web app called \"Credit Card Minimum Payment Trap Calculator\" using HTML, CSS, and Vanilla JavaScript only — no backend, no login, no external APIs.\n\nInputs:\n\nCurrent balance (number)\nAnnual interest rate (APR %)\nMinimum payment method: percentage of balance (default 3%) OR fixed monthly amount — let user pick one\nOptional extra payment per month\n\nSimulation logic (run in JS):\nFor each month: add monthly interest to balance, calculate minimum payment based on chosen method, add extra payment if given, apply payment to balance, repeat until balance reaches zero (cap at 600 months to avoid infinite loop).\n\nRun two scenarios: (1) minimum payment only, (2) minimum + extra payment.\n\nResults dashboard — display for both scenarios side by side:\n\nTotal interest paid\nTotal amount paid\nMonths and years to debt-free\nInterest saved and time saved (scenario 2 vs scenario 1)\n\nAdd 2-3 short \"smart insight\" text lines based on results, e.g. \"Most of your payment is going toward interest\" or \"Paying extra saves you X years.\"\n\nKeep UI clean, modern, mobile-friendly, single file (HTML+CSS+JS combined).",
+      "author": {
+        "login": "rupakkumar-76319",
+        "name": "Rupak Kumar"
+      },
+      "avatarUrl": "https://github.com/rupakkumar-76319.png",
+      "model": "Gemini 3.5 Flash",
+      "userPromptCount": 7,
+      "mcpServers": [
+        "archestra"
+      ],
+      "buildDate": "2026-07-25",
+      "durationSeconds": 29,
+      "recordingPath": "apps/rupakkumar-76319_credit_card_minimum_payment_trap_calculator/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "yashrajnayak_greenroom",
+      "appName": "Greenroom",
+      "description": "A calm event operations control room that turns blockers into readiness scores, a ranked critical path, owner load, and three next moves per event.",
+      "category": "Workflows",
+      "prompt": "# Archestra app prompt\n\nBuild an app called **Greenroom** for community-event organizers.\n\nUse Archestra's shared data layer. On first run, seed it with the fictional public demo dataset below. Do not fetch any outside data.\n\nEvents:\n\n- Builder Commons — Bengaluru — 2026-08-02 — Meetup\n- Open Source After Hours — Pune — 2026-08-08 — Community night\n- Cloud Native Campus — Kochi — 2026-08-15 — Campus program\n- Community Demo Day — Chennai — 2026-08-22 — Showcase\n\nBlockers, written as `id | event | title | area | severity | status | owner | due | impact | next action`:\n\n- GR-101 | Builder Commons | Confirm backup venue hold | Venue | critical | blocked | Venue lead | 2026-07-26 | Registration cannot expand until capacity is locked. | Ask the backup venue for a written 48-hour hold.\n- GR-102 | Builder Commons | Collect final speaker headshot | Speakers | high | in-progress | Program lead | 2026-07-27 | The speaker announcement card cannot be published. | Send the approved crop guide and request a landscape original.\n- GR-103 | Builder Commons | Publish attendee arrival note | Comms | medium | ready | Community lead | 2026-07-29 | Late arrival details may increase check-in questions. | Schedule the approved arrival note for 48 hours before doors.\n- GR-104 | Builder Commons | Run projector and audio check | Production | high | open | Production lead | 2026-07-30 | Talk playback and audience questions are untested. | Book a 30-minute venue test with both presentation laptops.\n- GR-201 | Open Source After Hours | Approve contributor demo shortlist | Program | high | in-progress | Program lead | 2026-07-28 | The run of show has an unallocated 35-minute block. | Score the remaining demos and confirm the top four.\n- GR-202 | Open Source After Hours | Lock food count with venue | Venue | medium | open | Venue lead | 2026-08-01 | The catering quote may change after the cutoff. | Use the registration trend to submit a conservative headcount.\n- GR-203 | Open Source After Hours | Confirm code of conduct contact | Safety | critical | blocked | Community lead | 2026-07-27 | The event cannot publish its safety escalation path. | Name a primary and backup contact and add them to the attendee guide.\n- GR-204 | Open Source After Hours | Prepare sponsor mention slide | Sponsors | low | ready | Partnerships lead | 2026-08-04 | The opening deck is missing one agreed acknowledgment. | Add the approved sponsor line to the opening slide.\n- GR-301 | Cloud Native Campus | Receive campus network guest credentials | Venue | high | blocked | Venue lead | 2026-08-05 | Workshop devices cannot be tested on the guest network. | Request a temporary access set for the rehearsal window.\n- GR-302 | Cloud Native Campus | Finish mentor office-hour roster | Program | medium | in-progress | Program lead | 2026-08-06 | Student teams cannot choose reliable help slots. | Fill the remaining two mentor windows and publish the roster.\n- GR-303 | Cloud Native Campus | Test workshop starter repository | Production | high | open | Technical lead | 2026-08-08 | A broken setup path would consume the first workshop block. | Run the guide on a clean account and log every missing prerequisite.\n- GR-401 | Community Demo Day | Choose audience voting method | Program | medium | open | Program lead | 2026-08-10 | The audience-choice award has no collection method. | Select a mobile-friendly ballot and test duplicate-vote controls.\n- GR-402 | Community Demo Day | Confirm photo release wording | Safety | high | blocked | Community lead | 2026-08-09 | Registration copy cannot be finalized. | Review the plain-language consent note with the venue.\n- GR-403 | Community Demo Day | Draft finalist introduction cards | Comms | low | ready | Community lead | 2026-08-15 | The closing showcase lacks consistent project intros. | Populate the approved card template after finalists are locked.\n\nThe app should feel like a calm operations room, not a generic analytics dashboard. Use a dark midnight background, warm off-white text, electric lime for healthy signals, coral for critical signals, and cyan for active work. Keep contrast high and spacing generous.\n\nCreate four views:\n\n1. **Portfolio** — show overall readiness, the number of events at risk, critical blockers, overdue items, and one card per event. Each event card should show date, city, readiness score, blocker count, and the most urgent next action.\n2. **Critical path** — rank open issues by severity, overdue status, and how close the event date is. Provide filters for event, area, severity, and owner role. Show impact and next action without forcing the user to open a modal.\n3. **Owner load** — group unresolved issues by owner role and make overloaded roles obvious.\n4. **Run of show** — place all events on a compact timeline and show the next deadline under each event.\n\nReadiness starts at 100 for each event. Subtract 24 for each critical blocker, 14 for each high blocker, 7 for each medium blocker, and 3 for each low blocker. Subtract another 6 when an unresolved item is overdue. Clamp the result between 0 and 100.\n\nWhen an event is selected, open a focus panel that lists exactly three recommended moves, ordered by urgency. Each move should explain why it matters.\n\nAdd a **Resolve** action to unresolved rows. Ask for confirmation inside the app, then mark the matching record resolved and refresh the view. Add a secondary **Add update** action that appends a timestamped note to the record, then refreshes the row.\n\nMake the interface useful at a glance:\n\n- label readiness as `Ready`, `Watch`, or `At risk`;\n- keep event names and due dates visible;\n- do not hide the critical path behind charts;\n- include empty, loading, and tool-error states;\n- never show raw storage payloads;\n- use only the fictional dataset above.\n\nThe app must be responsive and fully usable in the Archestra recording view. Build it with no external network requests.",
+      "author": {
+        "login": "yashrajnayak",
+        "name": null
+      },
+      "avatarUrl": "https://github.com/yashrajnayak.png",
+      "model": null,
+      "userPromptCount": 1,
+      "mcpServers": [
+        "archestra"
+      ],
+      "buildDate": "2026-07-25",
+      "durationSeconds": 10,
+      "recordingPath": "apps/yashrajnayak_greenroom/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "Neetinkumar_kubernetes_problems_dashboard",
+      "appName": "Kubernetes Problems Dashboard",
+      "description": "Cluster health monitor for the incident-demo namespace with severity mapping and direct links to GitHub runbooks.",
+      "category": "Data & Dashboards",
+      "prompt": "Build me a Kubernetes Incident Dashboard for the 'incident-demo' namespace that uses kubectlget and kubectldescribe to find problem pods. It should show summary counts of Critical, High, and Medium issues based on the failure reason, with a list of problem pods featuring expandable details for state, reason, and restart count, and a direct link to a GitHub runbook based on the specific error.",
+      "author": {
+        "login": "Neetinkumar",
+        "name": null
+      },
+      "avatarUrl": "https://github.com/Neetinkumar.png",
+      "model": "Gemma 4 31B IT",
+      "userPromptCount": 32,
+      "mcpServers": [
+        "archestra",
+        "github",
+        "kubernetes"
+      ],
+      "buildDate": "2026-07-24",
+      "durationSeconds": 27,
+      "recordingPath": "apps/Neetinkumar_kubernetes_problems_dashboard/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "rupakkumar-76319_url_screenshot_capture",
+      "appName": "URL Screenshot Capture",
+      "description": "Full-page screenshots and titles from any URL via Playwright — paste, capture, view instantly.",
+      "category": "Developer Tools",
+      "prompt": "Build me an app where I paste a URL, click a button, and it uses Playwright to open the page, grab the title, take a full-page screenshot, and show me both.",
+      "author": {
+        "login": "rupakkumar-76319",
+        "name": "Rupak Kumar"
+      },
+      "avatarUrl": "https://github.com/rupakkumar-76319.png",
+      "model": "Nemotron 3 Ultra (free)",
+      "userPromptCount": 2,
+      "mcpServers": [
+        "archestra",
+        "microsoft__playwright-mcp"
+      ],
+      "buildDate": "2026-07-24",
+      "durationSeconds": 24,
+      "recordingPath": "apps/rupakkumar-76319_url_screenshot_capture/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "veeradyani222_ai_slop_police",
+      "appName": "AI Slop Police",
+      "description": "Automated Slack monitor that flags AI-generated messages based on custom thresholds and roasts them in threads.",
+      "category": "Games & Experiments",
+      "prompt": "Build me an app with a fun police patrol theme that watches a Slack channel and roasts AI-generated messages in the threads. I need to be able to set the channel ID, choose a 15, 30, or 60-second scan interval, and adjust the AI-confidence threshold, with the app remembering all my settings between sessions.",
+      "author": {
+        "login": "veeradyani222",
+        "name": "Veer Adyani"
+      },
+      "avatarUrl": "https://github.com/veeradyani222.png",
+      "model": "Gemini 3.1 Pro Preview",
+      "userPromptCount": 2,
+      "mcpServers": [
+        "archestra",
+        "slack_mcp_server"
+      ],
+      "buildDate": "2026-07-24",
+      "durationSeconds": 29,
+      "recordingPath": "apps/veeradyani222_ai_slop_police/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "mrimek_cat_dog_lookalike_matcher",
+      "appName": "Cat & Dog Lookalike Matcher",
+      "description": "Curated cat-and-dog breed lookalike pairs shown side by side with match scores and why-they-match notes, in self-contained SVG portraits.",
+      "category": "Games & Experiments",
+      "prompt": "Build me an app that pairs cat breeds with the dog breeds they look most alike, showing each pair side by side with a match score and a short line explaining why they resemble each other, plus a shuffle button to reorder them, using a curated set of lookalike pairs with a portrait for each breed.",
+      "author": {
+        "login": "mrimek",
+        "name": "Margaret Rimek"
+      },
+      "avatarUrl": "https://github.com/mrimek.png",
+      "model": "Claude Opus 4.8",
+      "userPromptCount": 1,
+      "mcpServers": [
+        "archestra_staging"
+      ],
+      "buildDate": "2026-07-23",
+      "durationSeconds": 11,
+      "recordingPath": "apps/mrimek_cat_dog_lookalike_matcher/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "mrimek_pacman",
+      "appName": "Pacman",
+      "description": "Classic arcade maze chase with ghosts and power pellets, playable in the browser.",
+      "category": "Games & Experiments",
+      "prompt": "Build me a Pacman game that works as a single HTML page with the classic maze, dots, power pellets, ghosts, and scoring, letting me play with the arrow keys and restart when I lose.",
+      "author": {
+        "login": "mrimek",
+        "name": "Margaret Rimek"
+      },
+      "avatarUrl": "https://github.com/mrimek.png",
+      "model": "DeepSeek V4 Flash",
+      "userPromptCount": 0,
+      "mcpServers": [
+        "archestra"
+      ],
+      "buildDate": "2026-07-22",
+      "durationSeconds": 11,
+      "recordingPath": "apps/mrimek_pacman/recording.json",
+      "thumbnailPath": "apps/mrimek_pacman/thumbnail.webp",
+      "formatVersion": 1
+    },
+    {
+      "slug": "mrimek_the_confusion_map",
+      "appName": "The Confusion Map",
+      "description": "What customers ask about most during discovery calls, mapped by topic.",
+      "category": "Data & Dashboards",
+      "prompt": "Build me an app that shows what our customers are asking about most during discovery calls, pulling from call transcripts and highlighting recurring themes sorted by frequency.",
+      "author": {
+        "login": "mrimek",
+        "name": "Margaret Rimek"
+      },
+      "avatarUrl": "https://github.com/mrimek.png",
+      "model": "DeepSeek V4 Flash",
+      "userPromptCount": 1,
+      "mcpServers": [
+        "archestra",
+        "archestra_staging"
+      ],
+      "buildDate": "2026-07-22",
+      "durationSeconds": 24,
+      "recordingPath": "apps/mrimek_the_confusion_map/recording.json",
+      "thumbnailPath": null,
+      "formatVersion": 1
+    },
+    {
+      "slug": "mrimek_wheel_of_names",
+      "appName": "Wheel of Names",
+      "description": "Wheel of Names — an interactive app built in chat.",
+      "category": "Games & Experiments",
+      "prompt": "Build me an app that lets me enter a list of names and spin a wheel to randomly pick one, with smooth animation and a clean result display.",
+      "author": {
+        "login": "mrimek",
+        "name": "Margaret Rimek"
+      },
+      "avatarUrl": "https://github.com/mrimek.png",
+      "model": "DeepSeek V4 Flash",
+      "userPromptCount": 0,
+      "mcpServers": [
+        "archestra",
+        "archestra_pm"
+      ],
+      "buildDate": "2026-07-22",
+      "durationSeconds": 13,
+      "recordingPath": "apps/mrimek_wheel_of_names/recording.json",
+      "thumbnailPath": "apps/mrimek_wheel_of_names/thumbnail.webp",
+      "formatVersion": 1
+    },
+    {
+      "slug": "piercypixel_archestra_snake_3310_mk_ii",
+      "appName": "Archestra Snake 3310 — Mk II",
+      "description": "Retro Nokia-3310 snake game with a dark charcoal shell and teal LCD — wrap-around board, speed-ups, pulsing timed boss treats, and saved high scores.",
+      "category": "Games & Experiments",
+      "prompt": "Build me a retro snake game styled like a classic Nokia 3310 phone with Archestra.AI branding, playable with arrow keys, WASD, or the 2/4/6/8 keys on an on-screen keypad where each keypress lights up the matching button, on a wrap-around board that speeds up as I eat, with regular apple treats plus periodic pulsing boss treats that have a countdown timer and bonus points, sound effects with a toggle, and.",
+      "author": {
+        "login": "piercypixel",
+        "name": "Mark Novikov"
+      },
+      "avatarUrl": "https://github.com/piercypixel.png",
+      "model": "Claude Opus 4.8",
+      "userPromptCount": 2,
+      "mcpServers": [
+        "archestra_staging"
+      ],
+      "buildDate": "2026-07-22",
+      "durationSeconds": 30,
+      "recordingPath": "apps/piercypixel_archestra_snake_3310_mk_ii/recording.json",
+      "thumbnailPath": "apps/piercypixel_archestra_snake_3310_mk_ii/thumbnail.webp",
+      "formatVersion": 1
+    }
+  ]
+}
